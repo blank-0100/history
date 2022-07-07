@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz@6..72&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+html { margin: 0; padding: 0; }
+body { margin: 0; padding: 0; text-align: center;}
+
+a:link, a:visited, a:hover, a:active { text-decoration: none; color: black;}
+
+.blog-title {
+    margin-top: 1%;
+    font-size: 330%;
+    font-family: 'Playball', cursive;
+}
+
+
+.menu-li { display: inline-block;
+font-family: 'Newsreader', serif;
+font-size: 145%;
+margin: 0.7%;}
+
+
+.section-1{
+    background-image: url(./image/5.png);
+    background-size: cover;
+    background-position: right bottom;
+    margin-top: 1.5%;
+}
+
+
+.section-1 .title{
+    display: inline-block;
+    color: white;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 300%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+
+.section-2 img {
+    width: 20%;
+    margin: 2%;
+}
+
+
+.section-2{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #ece1c5;
+}
+
+
+.section-3 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: relative;
+    width: 100%;
+    height: 340px;
+}
+
+
+.left {
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    left: 2.78%;
+}
+
+
+.left img { width: 100%; }
+
+
+.right {
+    display: inline-block;
+    position: absolute;
+    left: 32.2%;
+}
+
+
+.right .title {
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 340%;
+    display: inline-block;
+}
+
+
+.right .sub {
+    font-family: 'Nanum Pen Script', cursive;
+    padding: 1%;
+    font-size: 140%;
+    line-height: 150%;
+    text-align: left;
+}
+
+
+.parent {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    background: black;
+}
+.child {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    background: red;
+    bottom:1%;
+    left: 2%;
+}
+
+
+.section-4{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    background-color: #f8e6e9
+}
+
+
+.section-4 .box {
+    display: inline-block;
+    max-width: 20%;
+    margin: 2%;
+}
+
+
+.section-4 img {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+
+.section-4 .title {
+    margin-top: 3.5%;
+    font-family: 'Nanum Brush Script', cursive;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+
+.section-4 .sub {
+    font-family: 'Nanum Brush Script', cursive;
+    margin-top: 1%;
+}
+
+
+.section-5 {
+    margin-top: 2%;
+}
+
+
+.section-5 .title {
+    font-family: 'Playball', cursive;
+    font-size: 320%;
+    text-align: center;
+}
+
+
+.mailbox {
+    margin-top: 1.7%;
+    margin-bottom: 1.7%;
+    text-align: center;
+}
+
+
+.mailbox .text {
+    max-width: 500px;
+    width: 30%;
+    height: 30px;
+    border: 1px solid beige;
+}
+
+
+.mailbox .submit {
+    color: #62594c;
+    height: 35px;
+    vertical-align: middle;
+    border: 1px none gray;
+    background: beige;
+}
+
+
+.mailbox .text::placeholder {
+    padding-left: 10px;
+    color: #62594c;
+}
+
+
+footer {
+    background: beige;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+
+.footer-title {
+    font-size: 40px;
+    font-family: 'Playball', cursive;
+    text-align: center;
+}
+
+
+.icons { text-align: center; margin-top: 10px;}
+.icon { width: 50px; text-align: center; padding: 10px;}
+
+
+.copyright {
+    text-align: center;
+    font-family: 'Newsreader', serif;
+    margin: 10px;
+}
